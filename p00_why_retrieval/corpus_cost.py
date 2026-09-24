@@ -23,10 +23,21 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 def load_corpus():
     corpus_path = DATA_DIR / "scifact" / "corpus.jsonl"
+    zip_path = DATA_DIR / "scifact.zip"
     if not corpus_path.exists():
-        print(f"Downloading {BEIR_URL} ...")
-        with urllib.request.urlopen(BEIR_URL) as resp:
-            zipfile.ZipFile(io.BytesIO(resp.read())).extractall(DATA_DIR)
+        if zip_path.exists():
+            zipfile.ZipFile(zip_path).extractall(DATA_DIR)
+        else:
+            print(f"Downloading {BEIR_URL} ...")
+            try:
+                with urllib.request.urlopen(BEIR_URL) as resp:
+                    zipfile.ZipFile(io.BytesIO(resp.read())).extractall(DATA_DIR)
+            except urllib.error.URLError as e:
+                raise SystemExit(
+                    f"Download failed ({e.reason}). Download the file manually, e.g.\n"
+                    f"  curl -L -o {zip_path} {BEIR_URL}\n"
+                    f"and run this script again."
+                )
     with open(corpus_path, encoding="utf-8") as f:
         return [json.loads(line) for line in f]
 

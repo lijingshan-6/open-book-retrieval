@@ -30,6 +30,7 @@ Python 3.10+ is recommended.
 | --- | --- | --- |
 | 00 | Why we still need retrieval in the age of agents | [p00_why_retrieval](p00_why_retrieval/) |
 | 01 | Classic RAG as a reference point | [p01_classic_rag](p01_classic_rag/) |
+| 02 | Document parsing sets the ceiling for retrieval | [p02_document_parsing](p02_document_parsing/) |
 
 More parts are added as they are published.
 

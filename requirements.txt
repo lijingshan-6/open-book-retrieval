@@ -1,1 +1,4 @@
 tiktoken>=0.7
+pypdf>=4.0
+PyMuPDF>=1.24
+lxml>=5.0

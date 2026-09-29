@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of provision of non-alcoholic beverages on alcohol consumption: a randomized controlled study</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct status="extracted">
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Hisashi</forename><surname>Yoshimoto</surname></persName>
+							<email>hisashiyoshi@md.tsukuba.ac.jp</email>
+							<idno type="ORCID">0000-0001-9168-9218</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Research and Development Center for Lifestyle Innovation</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<addrLine>1-2 Kasuga</addrLine>
+									<postCode>305-8550</postCode>
+									<settlement>Tsukuba</settlement>
+									<region>Ibaraki</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Family Medicine</orgName>
+								<orgName type="department" key="dep2">Institute of Medi- cine</orgName>
+								<orgName type="institution" key="instit1">General Practice and Community Health</orgName>
+								<orgName type="institution" key="instit2">University of Tsukuba</orgName>
+								<address>
+									<settlement>Tsukuba</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kyoko</forename><surname>Kawaida</surname></persName>
+							<idno type="ORCID">0000-0001-9168-9218</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Research and Development Center for Lifestyle Innovation</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<addrLine>1-2 Kasuga</addrLine>
+									<postCode>305-8550</postCode>
+									<settlement>Tsukuba</settlement>
+									<region>Ibaraki</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shohei</forename><surname>Dobashi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Research and Development Center for Lifestyle Innovation</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<addrLine>1-2 Kasuga</addrLine>
+									<postCode>305-8550</postCode>
+									<settlement>Tsukuba</settlement>
+									<region>Ibaraki</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Go</forename><surname>Saito</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Research and Development Center for Lifestyle Innovation</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<addrLine>1-2 Kasuga</addrLine>
+									<postCode>305-8550</postCode>
+									<settlement>Tsukuba</settlement>
+									<region>Ibaraki</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Primary Care and Medical Education</orgName>
+								<orgName type="department" key="dep2">Graduate School of Comprehensive Human Sciences</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<settlement>Tsukuba</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yukiko</forename><surname>Owaki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Research and Development Center for Lifestyle Innovation</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<addrLine>1-2 Kasuga</addrLine>
+									<postCode>305-8550</postCode>
+									<settlement>Tsukuba</settlement>
+									<region>Ibaraki</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effect of provision of non-alcoholic beverages on alcohol consumption: a randomized controlled study</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BF215345C1CFECA8FC4459A7791460B3</idno>
+					<idno type="DOI">10.1186/s12916-023-03085-1</idno>
+					<note type="submission">Received: 26 May 2023 Accepted: 20 September 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.9.1" ident="GROBID" when="2026-09-29T13:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.9.1</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null, debugLabelingCollector=disabled</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Non-alcoholic beverages</term>
+					<term>Reduced alcohol consumption</term>
+					<term>Randomized controlled study</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>The use of alcohol-flavored beverages not containing alcohol (hereinafter referred to as non-alcoholic beverages) is recommended to reduce alcohol consumption. However, it is unclear if this reduces excessive drinking.</p><p>Objective To verify whether non-alcoholic beverages impact the alcohol consumption of excessive drinkers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design Single-center, open-label, randomized, parallel-group study.</head><p>Methods Participants aged 20 years or older who were not diagnosed with alcoholism, who drank at least four times a week, and whose alcohol consumption on those days was at least 40 g in males and 20 g in females, were recruited. Participants were randomized into the intervention or control group by simple randomization using a random number table. In the intervention group, free non-alcoholic beverages were provided once every 4 weeks for 12 weeks (three times in total), and thereafter, the number of alcoholic and non-alcoholic beverages consumed were recorded for up to 20 weeks. The consumption of alcoholic and non-alcoholic beverages was calculated based on a drinking diary submitted with the previous 4 weeks of data. The primary endpoint was the change from baseline in total alcohol consumption during past 4 weeks at week 12. The participants were not blinded to group allocations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Fifty-four participants (43.9%) were allocated to the intervention group and 69 (56.1%) to the control group. None of the participants in the intervention group dropped out, compared to two (1.6%) in the control group. The change in alcohol consumption was -320.8 g (standard deviation [SD], 283.6) in the intervention group and -76.9 g (SD, 272.6) in the control group at Week 12, indicating a significant difference (p &lt; 0.001). Even at Week 20 (8 weeks after the completion of the intervention), the change was -276.9 g (SD, 39.1) in the intervention group, which was significantly greater than -126.1 g (SD, 41.3) in the control group (p &lt; 0.001). The Spearman rank correlation coefficient between the change in non-alcoholic beverage consumption and alcohol consumption at Week 12 was significantly negative only in the intervention group (ρ = -0.500, p &lt; 0.001). There were no reports of adverse events during the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Providing non-alcoholic beverages significantly reduced alcohol consumption, an effect that persisted for 8 weeks after the intervention.</p><p>Trial registration UMIN UMIN000047949. Registered 4 June 2022.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Excessive alcohol consumption is a global public health issue. In 2020, an estimated 1.34 billion people (1.03 billion males and 310 million females) consumed a harmful amount of alcohol <ref type="bibr" target="#b0">[1]</ref>, and more than 3 million people are dying from alcohol-related problems per year worldwide <ref type="bibr" target="#b1">[2]</ref>. The World Health Organization (WHO) claims that excessive drinking not only causes health problems, including alcoholism, but also leads to other serious issues, including domestic violence and traffic accidents due to drunk driving. Thus, it is recommending evidencebased measures such as price increases and taxation on alcohol beverages, permitting only certified stores to sell alcohol, and strengthening penalties for underage drinking and drunk driving <ref type="bibr" target="#b2">[3]</ref>. Japan is relatively permissive regarding drinking: for instance, there is an "all-you-candrink" system in some restaurants <ref type="bibr" target="#b3">[4]</ref>, and alcoholic beverages are available for purchase 24 hours a day, every day throughout the year. The need for measures to improve this situation has been pointed out in an international report <ref type="bibr" target="#b4">[5]</ref>.</p><p>In Japan, efforts to reduce excessive drinking have been made through Health Japan 21, a program that constitutes Japan's primary prevention strategy, and the enforcement of the Basic Law on Measures to Prevent Damage to Health Due to Alcohol, but their effects have been insufficient <ref type="bibr" target="#b4">[5]</ref>. The "amount of alcohol that increases the risk of lifestyle diseases" is defined in Japan as pure alcohol consumption (hereinafter referred to as "alcohol consumption") of 40 g/day or more in men and 20 g/day or more in women <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. In 2019, it was reported that compared to 2010, the percentage of people who drank the above amounts did not increase or decrease in men and significantly increased in women <ref type="bibr" target="#b4">[5]</ref>. One of the critical goals of Health Japan 21 is to reduce the number of people who drink alcohol in amounts that increase the risk of lifestyle diseases, and since this has not been achieved, it is necessary to take additional measures.</p><p>One strategy that has been discussed is the use of lowalcohol or non-alcoholic beverages <ref type="bibr" target="#b8">[9]</ref>. Non-alcoholic beverages are alcohol-flavored beverages that contain no alcohol. They are alternatives to alcoholic beverages, and theoretically, if they replace alcoholic beverages, this may lead to public health benefits <ref type="bibr" target="#b9">[10]</ref>. In its Global Strategy to Reduce Harmful Use of Alcohol, the WHO requests that the alcohol industry contributes to decreasing the harmful use of alcohol, for example by reducing the alcohol content of its products <ref type="bibr" target="#b10">[11]</ref>. Rehm et al. identified the following three ways in which low-alcohol or non-alcoholic beverages may impact the harmful use of alcohol: (1) replacing standard alcoholic beverages with similar low-alcohol beverages may lead to the consumption of beverages with lower alcohol content without increasing the amount of liquid consumed; (2) replacing alcoholic beverages with non-alcoholic beverages for a certain period of time may allow drinkers to reduce their mean ethanol consumption; and (3) consumption of low-alcohol or non-alcoholic beverages may lead to the resumption of alcohol use by people who have been abstaining from alcohol <ref type="bibr" target="#b11">[12]</ref>. Thus, non-alcoholic beverages can be an effective tool for reduction of alcohol consumption among excessive drinkers.</p><p>There is currently limited evidence on the effect of non-alcoholic beverages <ref type="bibr">[13]</ref>, with insufficient research on whether providing non-alcoholic beverages directly affects alcohol consumption. We examined this question in a randomized controlled study in excessive drinkers, excluding those with alcoholism. It is extremely valuable to verify effective methods for reducing alcohol consumption, not only for developing interventions for individuals, but also for formulating global strategies and community approaches such as policymaking.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>This was a single-center, open-label, randomized, parallel group study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>With reference to preceding studies <ref type="bibr" target="#b12">[14,</ref><ref type="bibr" target="#b13">15]</ref>, the eligibility criteria for participants in this study were specified as follows: (1) at least 20 years of age and (2) drinking on 4 or more days per week, with alcohol consumption of at least 40 g for men or 20 g for women on each of the days. The exclusion criteria were consumption of nonalcoholic beverages at least twice per month, past history of liver disease, current pregnancy or nursing, alcoholism, lack of consent for the use of LINE ® (a messaging application widely used in Japan that can be used on personal computers or smartphones; LINE Corp., Shinjukuku, Tokyo, Japan), and inability to understand the study explanation or answer the online survey conducted in advance, both of which were written only in Japanese. This study excluded individuals with alcoholism because it has been suggested that their use of non-alcoholic beverages may enhance alcohol craving and stimulate the desire to drink, which may increase the risk of drinking relapse <ref type="bibr" target="#b14">[16]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Setting</head><p>The survey was conducted from May 2022 to January 2023. Participants were recruited from May 30 to July 15, 2022, through the employee website of the University of Tsukuba, by putting up flyers inside and outside the University of Tsukuba campus, and by snowball sampling by the study personnel. The participants were randomly allocated to either the intervention or control group. People who wished to participate in the study were asked to answer an online questionnaire in advance to confirm eligibility and exclusion criteria, as well as to participate in an in-person 2-h briefing held on the University of Tsukuba campus and to provide written consent to participate. Nine briefings were held, and the number of attendees at each meeting was restricted to 15 as a COVID-19 prevention measure. In addition to interviews for alcoholism with physicians, measurement of height and weight and collection of saliva samples, this 2-h face-to-face orientation session prior to randomization included careful explanation about this study. We explained the effect of providing non-alcoholic beverages on alcohol consumption was unknown. We also asked participants in both groups to go about their daily lives as usual, with the exception of keeping a drinking diary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>The study procedures are described in Table <ref type="table">1</ref>. Week 0 of the study was defined as the start of the intervention. In the preparation period, the number of weeks was counted backwards, specifically Week (-4) and Week (-2). After the start of the intervention, the numbers of weeks were specified as Week 4, Week 8, and Week 12, and in the follow-up period, they were specified as Week 16 and Week 20. At Week ( <ref type="figure">-4</ref>), a study briefing was held, including an interview with a physician experienced in the diagnosis and treatment of alcoholism to initially confirm eligibility criteria. Two physicians were in charge of interviews. Each individual was interviewed by one of these physicians, who independently formulated the diagnosis. All individuals who met the eligibility criteria underwent a group briefing, and consent to participate was obtained in writing. At this briefing, participants completed a questionnaire regarding basic attributes, information about drinking, and other factors; in addition, height and body weight were measured and a saliva test was administered to assess the activity of genes related to alcohol metabolism. After the briefing, the participants were randomized to either the intervention or control group by simple randomization using a random number table <ref type="bibr" target="#b15">[17]</ref>. To prepare for the provision of the non-alcoholic beverages described below, at Week (-2), participants were told which group they were allocated to. During the post-allocation period (the intervention period, from Week 4 to Week 12) and the follow-up period, the participants in both groups were asked to record their consumption of alcoholic and non-alcoholic beverages in a drinking diary every day and to submit it every 4 weeks. After the briefing, the study participants were contacted only by phone or via internet. At the end of the study, a gift card worth 10,000 yen (approximately 73.67 US dollars) was given to all participants as a reward. In addition, each participant in the control group received up to five cases of non-alcoholic beverages of their choice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1 Study procedures</head><p>I intervention group, C control group, X all participants a Up to 3 cases of non-alcoholic beverages were provided at a time; each contained 24 350-mL bottles according to each participant's request b Up to 5 cases of non-alcoholic beverages were provided, each containing 24 350-mL bottles according to each participant's request</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention</head><p>During the 12-week intervention period, free non-alcoholic beverages were provided once every 4 weeks (three times in total). Each case included 24 350-mL bottles. Up to three cases were provided at a time, with the exact number depending on each participant's preference. Participants selected beverages from among 22 products from four manufacturers, specifically the six top-ranked beer-flavored products and the 16 top-ranked cocktailflavored products according to the sales ranking in the Japanese market in 2021. The selected non-alcoholic beverages were shipped to participants' homes by a package delivery company.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement</head><p>The self-administered questionnaire used in the briefing included questions regarding basic attributes such as age, sex, race, marital status, the highest level of education, employment status, household income, smoking history, and subjective view of health <ref type="bibr" target="#b16">[18]</ref>, as well as the Alcohol Quality of Life Scale (AQoLS) <ref type="bibr" target="#b17">[19]</ref> and questions related to drinking, such as the Alcohol Use Disorders Identification Test (AUDIT) <ref type="bibr" target="#b18">[20]</ref> and the number of binge-drinking episodes within the past 1 month. The definition of binge drinking varies across studies, but it commonly refers to the consumption of five or more drinks by men or four or more drinks by women over a period of about 2 h <ref type="bibr" target="#b19">[21]</ref>. Since a standard drink is defined in Japan as 10 g of pure alcohol, we defined binge drinking as consumption of 50 g or more of alcohol by men and 40 g or more by women in a 2-h period on one occasion within the past month. Subjective view of health was one of the QOL indices. In response to the question "What do you consider to be your usual health condition?" the participants were asked to select one of four choices: "very healthy, " "fairly healthy, " "not so healthy, " and "not healthy. " The AQoLS is a scale for the evaluation of the effects of alcohol on health-related QOL. We used the Japanese version of the AQoLS, which, like the original, consists of 34 scientifically verified questions. AUDIT is a screening tool for alcohol use disorder developed by the WHO, and consists of 10 questions, with a full score of 40 points.</p><p>As genetic information related to alcohol metabolism, the gene activities of alcohol dehydrogenase 1B (ADH1B) and aldehyde dehydrogenase 2 (ALDH2) were examined using a saliva test. ADH1B is one of the enzymes that degrades ethanol, and ALDH2 is among those that degrades acetaldehyde. Differences in their activities are known to affect drinking behavior <ref type="bibr" target="#b20">[22]</ref>.</p><p>The drinking diary was designed in a calendar format, in which the amount of alcoholic and non-alcoholic beverages consumed were to be entered under each date. The drinking diary was provided to the study participants in printed form or in a Microsoft ® Excel ® file according to their choice, and they were asked to submit it to the study secretariat once every 4 weeks, either in an e-mail attachment or by LINE ® (whereby photos of the filledout diary were attached). For alcoholic beverages, participants were asked to specify the type, alcohol content, and the amount of consumption in order to calculate alcohol consumption, and the number of episodes of heavy episodic drinking (HED) was also counted. HED was defined as the consumption of at least 60 g of pure alcohol on at least one occasion in the past 30 days <ref type="bibr" target="#b1">[2]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome</head><p>The primary endpoint was the change in total alcohol consumption from baseline during the past 4 weeks at Week 12 <ref type="bibr" target="#b21">[23,</ref><ref type="bibr" target="#b22">24]</ref>. Alcohol consumption (grams) was calculated based on the drinking diary data using the following formula: "consumption (mL) × alcohol concentration (%, v/v) × specific gravity (0.8)/100" <ref type="bibr" target="#b13">[15]</ref>. In addition, the change from baseline in the consumption of non-alcoholic beverages was calculated based on the amount (mL) of non-alcoholic beverages consumed as recorded in the drinking diary. Furthermore, to examine whether alcohol consumption was reduced by replacing alcoholic beverages with non-alcoholic ones, the correlation between changes in alcohol consumption and the consumption of non-alcoholic beverages was analyzed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample size</head><p>The necessary sample size was calculated based on the effect size of the change in alcohol consumption (Cohen's d = 0.59, unpublished data) determined in a preliminary investigation we performed by providing a brief intervention (a quick counseling by healthcare personnel) to excessive drinkers and comparing the outcomes with a control group, with a significance level of 0.05 and a statistical power of 0.80. Forty-seven participants per group and 94 in total (two groups) were determined to be necessary. Taking into consideration possible participant dropout during the intervention period, approximately 25% of 94, i.e., 26, was added, and 120 was specified as the target number of participants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Randomization and blinding</head><p>A random number table was used to perform simple randomization and to select the number of participants in the intervention group. After the eligibility and exclusion criteria were confirmed and consent was obtained, participants were allocated into either the intervention or control group and notified of the randomization results via e-mail within 2 weeks after the briefing. Allocation was performed by Investigator K, without disclosing the allocation or its order to the other investigators. Because people can choose their preferred non-alcoholic beverages in their everyday lives, and since the dropout rate might be increased if participants were provided with beverages that they did not like, those in the intervention group were not blinded so that they could choose their non-alcoholic beverages. For this reason, no items to facilitate blinding were provided to the control group participants during the study, but instead non-alcoholic beverages were provided after the study period had ended. The drinking diary data were evaluated by Investigators K, S, and O, who were blinded to the allocations of participants in both groups. Investigator D was not involved in briefings, randomization, questionnaire development, or the evaluation of drinking diary data, and therefore was able to perform data analysis in a blinded manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical methods</head><p>The available data of all participants were included according to the original allocation in an intention-totreat analysis. The unsubmitted data of the participants who dropped out were treated as missing data. The normality of the data was evaluated by the Kolmogorov-Smirnov test. Intergroup comparisons of baseline data were performed by t-test in cases of normal distribution and by the Mann-Whitney U test in cases of non-normal distribution. The chi-square test or Fisher's exact probability test was performed for categorical variables. Twoway analysis of variance (ANOVA) was used to analyze changes from baseline in the consumption of alcoholic and non-alcoholic beverages in the two groups, using group and time as factors. Normality of the data was not observed for either variable. However, homogeneity of the variance of the data was confirmed for both variables using Levene's test, and therefore, the results of the analysis of variance were accepted with reference to a preceding study (n = 121) <ref type="bibr" target="#b23">[25]</ref>.</p><p>As post hoc tests, Dunnett's test was performed to compare temporal sequences within the same group with reference to Week 4, and Bonferroni's test was performed to analyze intergroup differences at individual time points. Correlations were evaluated based on Spearman's rank correlation coefficients. The significance level was 5%. Stata 17.0 for Windows (Stata Corp., College Station, TX, USA) and GraphPad Prism v. 9.0 (GraphPad Inc., La Jolla, CA, USA) were used for all analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The study flow chart is shown in Fig. <ref type="figure" target="#fig_0">1</ref>. One hundred twenty-three people wished to participate in the study and all of them were randomized. Fifty-four (43.9%) were allocated to the intervention group and 69 (56.1%) to the control group. None of the participants in the intervention group dropped out, compared to two participants (1.6%) in the control group. One participant did not specify the reason for dropping out, while the other cited the hassle of filling out the drinking diary.</p><p>Table <ref type="table" target="#tab_0">2</ref> and Table <ref type="table">S1</ref> show the basic attributes of all 123 participants. There were no significant differences between the intervention and control groups in age (22 to 72 years), sex, race, height, body weight, marital status, highest level of education, employment status, household income, smoking history, AUDIT score, AQoLS score, subjective view of health, or number of binge-drinking episodes. Data on polymorphisms of the ADH1B and ALDH2 genes, obtained from 122 participants, did not differ significantly between the two groups (Table <ref type="table" target="#tab_0">S2</ref>). Alcohol consumption, the consumption of non-alcoholic beverages, and the number of instances of HED are shown in Table <ref type="table" target="#tab_1">3</ref> as baseline data. The median baseline alcohol consumption was 996.0 g (interquartile range [IQR], 825.0) in the intervention group and 887.5 g (IQR, 765.0) in the control group, indicating no significant difference (p = 0.39).</p><p>The longitudinal changes in alcohol consumption and non-alcoholic beverage consumption relative to baseline at Weeks 4, 8, 12, 16, and 20 are presented in Fig. <ref type="figure" target="#fig_1">2</ref>. Two-way ANOVA of the change in alcohol consumption using group and time as factors indicated a significant interaction (p = 0.040, η 2 = 0.006, Fig. <ref type="figure" target="#fig_1">2A</ref>). The result of Bonferroni's test for multiple comparisons indicated significantly lower values in the intervention group than in the control group at all time points from Week 4 to Week 20 (p &lt; 0.05 for all). The main outcome in this study, the change in alcohol consumption at Week 12 (mean ± standard deviation), was -320.8 ± 283.6 g in the intervention group compared with -76.9 ± 272.6 g in the control group, while that at Week 20 was -276.9 ± 287.6 g in the intervention group compared with -126.1 ± 338.4 g in the control group. Neither group showed a significant effect of time on the change in alcohol consumption. Two-way ANOVA of the change in consumption of non-alcoholic beverages also revealed a significant interaction (p &lt; 0.001, η 2 = 0.057, Fig. <ref type="figure" target="#fig_1">2B</ref>   <ref type="figure" target="#fig_2">3</ref>) and was also observed at Weeks 4, 8, and 16, with no significant correlation at Week 20 (Fig. <ref type="figure" target="#fig_0">S1</ref>).</p><p>No adverse events were reported during the study. The total cost of the non-alcoholic beverages provided to the intervention group, including shipment costs, was 1,061,564 yen (approximately 7820.6 US dollars), which equated to a mean of 111.70 yen (approximately 0.82 US dollars) per 350-mL bottle.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, the provision of free non-alcoholic beverages for 12 weeks significantly reduced alcohol consumption. In the intervention group, this effect persisted not only during the intervention period but also up to 8 weeks following completion of the 12-week intervention. Our study is the first to suggest that providing nonalcoholic beverages reduces alcohol consumption.</p><p>At Week 12, alcohol consumption was reduced by an average of 11.5 g per day. On the other hand, the average volume of non-alcoholic beverages consumed per day was 314.3 mL. Correlation analysis showed a significant and moderate negative correlation between changes from baseline in alcohol consumption and non-alcoholic  beverage consumption, but only in the intervention group. This suggests that the reduced alcohol consumption in the intervention group may have been caused by the replacement of alcoholic beverages with the provided non-alcoholic beverages. A previous study demonstrated that greater availability of non-alcoholic beverages increased the odds of selecting non-alcoholic beverages rather than alcoholic beverages <ref type="bibr" target="#b24">[26]</ref>. In our study, this increased availability presumably resulted from the delivery of non-alcoholic beverages to participants' homes. It has been pointed out that replacing alcoholic with nonalcoholic beverages may lead to public health benefits <ref type="bibr" target="#b9">[10]</ref>, and therefore, such replacement may be effective as one method for reducing the harmful impact of alcohol.</p><p>However, the correlation between the changes in alcohol consumption and non-alcoholic beverage consumption in the intervention group gradually weakened after Week 8, and the significant correlation between them disappeared at Week 20. Although the reason remains unclear, it is possible that some of the non-alcoholic beverages provided at Weeks 0, 4, and 8 were consumed by the participants in the intervention group even after Week 12. Thus, although the effect of replacing alcoholic beverages lasted for a certain period, it was weakened when all the available non-alcoholic beverages were consumed. While the participants were not restricted from purchasing either alcoholic or non-alcoholic beverages throughout the study period, we could not distinguish whether the consumed non-alcoholic beverages were provided or voluntarily purchased because our information from the participants pertained only to the consumption amount. Thus, further studies are warranted to clarify this hypothesis. Nevertheless, the reduction of alcohol consumption in the intervention group was not affected by time and was still observed at Week 20 (8 weeks after completion of the intervention). This suggests that a certain degree of behavioral modification may have occurred, in addition to the effect of replacing alcoholic with non-alcoholic beverages, and this may have contributed to the persistent reduction in alcohol consumption in the intervention group after the intervention was complete. As this study was not conducted in a blinded manner, the Hawthorne effect, which refers to behavioral changes driven by attention or expectation from others, including investigators, may have affected the results <ref type="bibr" target="#b25">[27]</ref>. However, no Hawthorne effect occurred in a preceding study in which alcohol consumption data were collected by an online survey <ref type="bibr" target="#b26">[28]</ref>. To prevent this effect as much as possible in the present study, a 2-h face-to-face orientation session prior to randomization included a careful explanation that the effect of providing non-alcoholic beverages on alcohol consumption was unknown. We also asked participants in both groups to go about their daily lives as usual, with the exception of keeping a drinking diary. Finally, alcohol consumption and the consumption of non-alcoholic beverages were reported using a messaging app online. Given these measures, we consider it unlikely that the Hawthorne affected the study results. As such, provision of non-alcoholic beverages may be a new approach to behavioral modification that facilitates reduced alcohol consumption.</p><p>Although there was no significant difference in the intervention group between alcohol consumption at Week 12 and that at Week 20, the mean value did increase slightly, suggesting that the alcohol consumption-reducing effect of providing non-alcoholic beverages did not persist long term after the intervention was complete. However, the reduction of alcohol consumption over at least 20 weeks is considered beneficial in terms of public health.</p><p>The control group in this study also exhibited reduced alcohol consumption at Week 12, on average 2.7 g/day. This change may have been caused by the requirement to keep a drinking diary. According to a systematic review, self-monitoring of substance use disorder was effective in 29% of the analyzed studies, ineffective in 63%, and harmful in 8% <ref type="bibr" target="#b27">[29]</ref>. Because people with alcoholism were excluded from the present study, the drinking diary may have effectively reduced alcohol consumption. Assuming that the effect in the control group was the result of keeping a drinking diary, the decreased alcohol consumption observed in the intervention group is speculated to result from the combination of providing non-alcoholic beverages and keeping a drinking diary. For this reason, it may be appropriate to estimate the alcohol consumption-reducing effect of providing non-alcoholic beverages to be 8.8 g/day (i.e., the observed 11.5-g reduction in this group minus the 2.7-g reduction in the control group). The cost of the 12-week intervention required to reduce alcohol consumption by 8.8 g/day per person was 19,658.5 yen (approximately 144.8 US dollars; 1,061,564 yen divided by 54 [participants]). Because it has been suggested that there is a negative association between the price of non-alcoholic beverages and the number of consumers of such beverages <ref type="bibr" target="#b28">[30]</ref>, a price increase is likely to result in fewer purchasers. Therefore, the results of this study, specifically the low dropout rate, may be attributable to the fact that non-alcoholic beverages were provided free of charge. Further research is necessary to determine how the results and dropout rate are affected when participants are required to pay the costs themselves.</p><p>Since the purpose of this study was to investigate whether increased availability of non-alcoholic beverages would change the amount of alcohol consumption, we first examined the effect of providing non-alcoholic beverages purchased by the research group. The fact that alcohol consumption decreased when these non-alcoholic beverages were provided to the participants indicates that this strategy may be useful as a public health policy (e.g., providing price incentives for non-alcoholic beverages) in the real world <ref type="bibr" target="#b2">[3]</ref>.</p><p>From a clinical point of view, it will be beneficial to examine whether alcohol use changes if individuals purchase non-alcoholic beverages themselves. However, as the non-alcoholic beverages delivered to the intervention group were selected from a list specified by the participants based on their own preferences, we believe that this study serves as a valuable foundation for future studies.</p><p>In this study, the number of participants differed between the two groups because of simple randomization, but there was no significant bias in basic attributes or baseline data, and the low percentage of dropouts (1.6%) contributed to the validity of the study. However, there are roughly five major limitations to this study. The first is that almost all participants were Japanese, and therefore, caution should be exercised when generalizing the results across different races. Information was collected on alcohol metabolism-related genes as well as on body size (height and body weight), and these data are considered to be helpful for interpreting the results of this study. The second limitation is the narrowly defined target population in this study. Since none of the participants had a history of alcoholism, it remains unknown whether the results of this study can be applied to individuals with alcoholism or those at high risk of other alcohol-related problems <ref type="bibr" target="#b18">[20]</ref>. Therefore, future studies should examine the effect of providing non-alcoholic beverages to these populations, as well as the cost effectiveness of such programs. The third limitation is that the data on alcohol consumption and non-alcoholic beverage consumption were reported by participants themselves. While several objective blood biomarkers reflecting excessive drinking exists, there are some problems, such as large individual variation of the biomarkers and short halflife of them <ref type="bibr" target="#b29">[31,</ref><ref type="bibr" target="#b30">32]</ref>. Moreover, the longitudinal study requires many times of blood collection, which can increase drop-out our study. From these observations, we used only diary to obtain the amount of drinking alcoholic and non-alcoholic beverages. However, only self-reported data were analyzed and interpreting the results requires caution. The fourth limitation is that this study was conducted in an open-label manner. In this study, all participants were notified of their group assignment 2 weeks before the start of the intervention, due to the preparation time needed before providing them with the non-alcohol beverages of their choice.</p><p>Although none of the baseline data differed significantly between the two groups, revealing group assignments may have affected baseline values and the main outcome of change in alcohol consumption. The last limitation is that this study may have included unmeasurable confounding factors. Thus, future studies should enroll larger populations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Our results suggested that providing free non-alcoholic beverages was associated with significantly reduced alcohol consumption. This effect persisted for 8 weeks after the completion of the intervention. Providing non-alcoholic beverages may be a strategic option for reducing alcohol consumption among people with excessive drinking.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Study flow diagram</figDesc><graphic coords="5,127.54,511.14,340.20,197.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Changes in alcoholic and non-alcoholic beverage consumption from baseline. A Alcohol consumption (interaction of group and time: p = 0.040, η 2 = 0.006; main effect of group: p &lt; 0.001, η 2 = 0.125; main effect of time: p = 0.846, η 2 = 0.001). B Non-alcoholic beverage consumption (interaction of group and time: p &lt; 0.001, η 2 = 0.057; main effect of group: p &lt; 0.001, η 2 = 0.425; main effect of time: p &lt; 0.001, η 2 = 0.063). *p &lt; 0.05 vs. the control group at the same time point. † p &lt; 0.05 vs. Week 4</figDesc><graphic coords="7,64.18,88.58,466.92,146.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Correlation between changes in alcohol consumption and non-alcoholic beverage consumption at Week 12 in the control and intervention groups. A Control group (n = 67). B Intervention group (n = 54)</figDesc><graphic coords="7,64.18,518.62,466.92,178.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2</head><label>2</label><figDesc>Characteristics in the participantsSD standard deviation, IQR interquartile range a t-test, b Chi-square test, c Fisher's exact probability test, d Mann-Whitney U test</figDesc><table><row><cell>). Bonferroni's test for mul-</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc>Baseline alcoholic and non-alcoholic beverages consumption and the number of heavy episodic drinking</figDesc><table><row><cell></cell><cell>N = 122</cell><cell>median n = 54 (44.3%) Intervention group,</cell><cell>n = 68 (55.7%) Control group, median</cell><cell>p</cell></row><row><cell>Alcohol consumption (g/4 weeks, IQR)</cell><cell>935.5 (771.0)</cell><cell>996.0 (825.0)</cell><cell>887.5 (765.0)</cell><cell>0.39 d</cell></row><row><cell>Non-alcoholic beverage consumption</cell><cell>0.0 (350.0)</cell><cell>0.0 (700.0)</cell><cell>0.0 (0.0)</cell><cell>0.064 d</cell></row><row><cell>(mL/4 weeks, IQR)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Number of HED (times/4 weeks, IQR)</cell><cell>6.0 (12.0)</cell><cell>6.0 (16.0)</cell><cell>6.0 (11.0)</cell><cell>0.92</cell></row></table><note><p>HED heavy episodic drinking, IQR interquartile range a t-test, b Chi-square test, c Fisher's exact probability test, d Mann-Whitney U test d Week 20. The main outcome, alcohol consumption at Week 12, was not significantly correlated with nonalcoholic beverage consumption in the control group (ρ = -0.063, n = 67, p = 0.615). In contrast, a significant negative correlation was noted in the intervention group (ρ = -0.500, n = 54, p &lt; 0.001, Fig.</p></note></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>The authors thank all participants in this study.</p></div>
+			</div>
+
+
+			<div type="funding">
+<div><head>Funding</head><p>This study was conducted jointly with <rs type="person">Asahi Breweries</rs>, Ltd., which provided funding.</p></div>
+			</div>
+			<div type="conflict">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Competing interests H.Y. received research funding from Asahi Breweries. H.Y. also received them from Sanwa Shurui, which is not related to the conduct of our study. Study planning and conduct, data analysis, and writing of the manuscript were performed only by the investigators, independently from the company, under the supervision and instruction of the University of Tsukuba. Transparency and neutrality were strictly maintained during the conduct of the study. K.K., S.D., G.S., and Y.O. declare that they have no competing interests.</p></div>
+			</div>
+
+
+			<div type="contribution">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Authors' contributions H.Y. conceived and designed the study. H.Y., K.K., G.S., and Y.O. performed the intervention and data collection. S.D. analyzed the data. All authors interpreted the data. H.Y. and S.D. drafted the manuscript. S.D. prepared the table and figures. K.K., G.S., and Y.O. revised it critically for important intellectual content. All authors mentioned above made substantial contributions to the content of the paper. All authors read and approved the final manuscript.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Abbreviations ADH1B Alcohol dehydrogenase 1B ALDH2 Aldehyde dehydrogenase 2 ANOVA Analysis of variance AQoLS Alcohol Quality of Life Scale AUDIT Alcohol Use Disorders Identification Test COVID-19 Coronavirus disease 2019 HED Heavy episodic drinking WHO World Health Organization</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1186/s12916-023-03085-1">https:// doi.  org/ 10. 1186/ s12916-023-03085-1</ref>.</p><p>Additional file 1: Figure <ref type="figure">S1</ref>. Correlation between changes in alcohol consumption and non-alcoholic beverage consumption at Weeks 4, 8, 16, and 20 in the control and intervention groups. Panels A, C, E, and G indicate the relationships at Weeks 4, 8, 16, and 20, respectively, in the control group (all panels, n = 67). Panels B, D, F, and H indicate the relationships at Weeks 4, 8, 16, and 20, respectively, in the intervention group (all panels, n = 54).</p><p>Additional file 2: Table <ref type="table">S1</ref>. Characteristics in the participants other than Table <ref type="table">1</ref>. Table <ref type="table">S2</ref>. The number of populations of genetic polymorphisms in ADH1B and ALDH2 in the participants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head><p>This study was conducted after approval by the ethics committee of the University of Tsukuba (Notification Number G299) and written informed consent was provided prior to participation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted" xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Population-level risks of alcohol consumption by amount, geography, age, sex, and year: a systematic analysis for the Global Burden of Disease Study</title>
+	</analytic>
+	<monogr>
+		<title level="m">GBD 2020 Alcohol Collaborators</title>
+		<imprint>
+			<date type="published" when="2020">2020. 2022. 10347</date>
+			<biblScope unit="volume">400</biblScope>
+			<biblScope unit="page" from="185" to="235" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b1">
+	<monogr>
+		<title level="m">Global status report on alcohol and health</title>
+		<meeting><address><addrLine>Geneva</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Health Organization</publisher>
+			<date type="published" when="2018">2018. 2018. 2023 Sep 13</date>
+		</imprint>
+	</monogr>
+	<note>cited</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b2">
+	<monogr>
+		<title level="m" type="main">The SAFER technical package: five areas of intervention at national and subnational levels</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>World Health Organization</publisher>
+			<pubPlace>Geneva</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The use of all-you-can-drink system, nomihodai, is associated with the increased alcohol consumption among college students: a cross-sectional study in Japan</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawaida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yoshimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ogai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Morita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tohoku J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">245</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="263" to="267" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b4">
+	<monogr>
+		<idno type="DOI">10.1787/9789264311602-en</idno>
+		<ptr target="https://doi.org/10.1787/97892" />
+		<title level="m">OECD reviews of public health: Japan: a healthier tomorrow</title>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<publisher>OECD Publishing</publisher>
+			<date type="published" when="2022-12-09">2022 Dec 9</date>
+			<biblScope unit="volume">64311</biblScope>
+			<biblScope unit="page">602</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Defining risk drinking</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Dawson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alcohol Res Health</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="144" to="156" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Governmental standard drink definitions and low-risk alcohol consumption guidelines in 37 countries</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kalinowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Humphreys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Addiction</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1293" to="1298" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Clear criteria based on absolute risk: reforming the basis of guidelines on low-risk drinking</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Room</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rehm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Alcohol Rev</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="135" to="140" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Alcohol-free and low-strength drinks: understanding their role in reducing alcohol-related harms. The Social Market Foundation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Corfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hyde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shepherd</surname></persName>
+		</author>
+		<ptr target="https://www.smf.co.uk/wp-content/uploads/2020/09/NoLo-drinks-and-alcohol-related-harms-Sept-20.pdf" />
+		<imprint>
+			<date type="published" when="2020">2020. 2023 Sep 13</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A rapid evidence review of the effectiveness and cost-effectiveness of alcohol control policies: an English perspective</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Henn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lavoie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sweeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">389</biblScope>
+			<biblScope unit="page" from="1558" to="1580" />
+			<date type="published" when="2017">2017. 10078</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Global strategy to reduce the harmful use of alcohol</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>World Health Organization</publisher>
+			<pubPlace>Geneva</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Evidence of reducing ethanol content in beverages to reduce harmful use of alcohol</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Lachenmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Llopis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Imtiaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Gastroenterol Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="78" to="83" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Daily drinking is associated with increased mortality</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oehlert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Horton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Grucza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Culverhouse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alcohol Clin Exp Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2246" to="2255" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Calculation of pure alcohol content</title>
+		<author>
+			<persName><forename type="first">Labour</forename><surname>Ministry Of Health</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Welfare</forename></persName>
+		</author>
+		<ptr target="https://www.e-healthnet.mhlw.go.jp/information/alcohol/a-02-001.html" />
+		<imprint>
+			<date type="published" when="2009">2022 Dec. 2023 Sep 9</date>
+		</imprint>
+	</monogr>
+	<note>in Japanese</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Low-alcohol and alcohol-free drinks in people with heavy drinking or alcohol use disorders: systematic review of the literature</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caballeria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Pons-Cabrera</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Balcells-Oliveró</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Braddick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">3925</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>Doctor, can I drink an alcohol-free beer?</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b15">
+	<analytic>
+		<title level="a" type="main">How to randomise</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="issue">7211</biblScope>
+			<biblScope unit="page" from="703" to="704" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Relation of dietary quality, physical activity, and smoking habits to 10-year changes in health status in older Europeans in the SENECA study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haveman-Nies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Van Staveren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Public Health</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="318" to="323" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Psychometric validation of the Japanese version of Alcohol Quality of Life Scale (AQoLS-Japan) in the treatment of patients with alcohol use disorder</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Higuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Moriguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khx</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Qual Life Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="223" to="235" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b18">
+	<monogr>
+		<title level="m" type="main">AUDIT: The Alcohol Use Disorders Identification Test: guidelines for use in primary health care</title>
+		<author>
+			<persName><forename type="first">World</forename><surname>Health Organization</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Babor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Higgins-Biddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Monteiro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<publisher>World Health Organization</publisher>
+			<pubPlace>Geneva</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Second Edition</note>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Alcohol Abuse and Alcoholism. NIAAA Council approves definition of binge drinking</title>
+	</analytic>
+	<monogr>
+		<title level="j">NIAAA Newslett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Institute of</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Associations of variations in alcohol dehydrogenase genes with the level of response to alcohol in non-Asians</title>
+		<author>
+			<persName><forename type="first">Nce</forename><surname>Duranceaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schuckit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Eng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Wall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alcohol Clin Exp Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1470" to="1478" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Desire to get drunk partially mediates effects of a combined text message-based alcohol intervention for young adults</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Suffoletto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Alcohol Depend</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">109848</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Miyata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Murai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsuneyoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meulien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sorensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Higuchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychiatry Clin Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="697" to="706" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Non-normal data: is ANOVA still a valid option?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Blanca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alarcón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arnau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bendayan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psicothema</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="552" to="557" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b24">
+	<monogr>
+		<title level="m" type="main">The impact on selection of non-alcoholic vs alcoholic drink availability: an online experiment</title>
+		<author>
+			<persName><forename type="first">Akm</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De-Loyde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Hollands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Brocklebank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Maynard</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>BMC Public Health</publisher>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">526</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Systematic review of the Hawthorne effect: new concepts are needed to study research participation effects</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccambridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Witton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Elbourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="267" to="277" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Randomized trial seeking to induce the Hawthorne effect found no evidence for any effect on self-reported alcohol consumption online</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccambridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Attia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kypri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="102" to="109" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The use and impact of self-monitoring on substance use outcomes: a descriptive systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Funderburk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shepardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kosiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Maiso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Subst Abus</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="512" to="526" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Impact of price promotion, price, and minimum unit price on household purchases of low and no alcohol beers and ciders: descriptive analyses and interrupted time series analysis of purchase data from 70, 303 British households, 2015-2018 and first half of 2020</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Llopis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soc Sci Med</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page">113690</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Old and new biomarkers of alcohol abuse: narrative review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fakhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Waszkiewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">2124</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct status="extracted" xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Formation of phosphatidylethanol and its subsequent elimination during an extensive drinking experiment over 5 days</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gnann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Weinmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thierauf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Alcohol Clin Exp Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1507" to="1511" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -36,4 +36,28 @@ IQR) 6.0 (12.0) 6.0 (16.0) 6.0 (11.0) 0.92d Page 7 of 10 Yoshimoto et al. BMC Me
 
 This is one paper, one query and the simplest retriever, so treat it as an illustration of the mechanism, not a benchmark.
 
-GROBID, Docling, Nougat and olmOCR are discussed in the article but not run here. They need a Java service, large model downloads or a GPU.
+## GROBID
+
+Step 8 sends the PDF to a local [GROBID](https://github.com/kermitt2/grobid) server. Without one, it falls back to `grobid_output.tei.xml`, the output of GROBID 0.9.1 (CRF models) on this paper, committed here so the comparison can be reproduced without Docker. To run GROBID yourself:
+
+```bash
+docker run -d --name grobid -p 8070:8070 grobid/grobid:0.9.1-crf
+```
+
+It took about 46 seconds on this paper. GROBID fixes most of what plain extraction gets wrong, but not everything:
+
+| | Plain text extraction | GROBID |
+| --- | --- | --- |
+| Title, authors, DOI | title and first author | title, all 5 authors, DOI |
+| Section heads | none | 16, close to the original (Table 1 is mistaken for a heading) |
+| Running heads and page numbers | 19 | 0 |
+| Line-end hyphenation | 143 breaks | 0, but `non-alcoholic` is joined into `nonalcoholic` 3 times |
+| References | mixed into the text | 31 of 32, listed separately |
+| Table 3 | flattened | 5 rows, cells line up |
+| Table 2 | flattened | one cell holding an unrelated fragment |
+
+The most important error is silent. The Results paragraph with the answer (ρ = −0.500, n = 54) is placed inside Table 3's `<note>`, because the table sits right above it on the page. If only GROBID's body sections are indexed, the answer sentence is not in the index at all.
+
+Docling, Nougat and olmOCR are discussed in the article but not run here. They need large model downloads or a GPU.
+
+`grobid_output.tei.xml` is derived from Yoshimoto et al. (2023), CC BY 4.0.

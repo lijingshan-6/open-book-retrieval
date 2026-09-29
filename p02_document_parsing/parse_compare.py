@@ -154,6 +154,69 @@ def main():
               f"#{ranked.index(answer) + 1} of {len(cs)}")
         print(f"  {cs[answer][:420]}")
 
+    grobid(pdf_path, xml_all, query)
+
+
+TEI = "{http://www.tei-c.org/ns/1.0}"
+GROBID_URL = "http://localhost:8070/api/processFulltextDocument"
+GROBID_CACHE = Path(__file__).resolve().parent / "grobid_output.tei.xml"
+
+
+def grobid(pdf_path, xml_all, query):
+    """Parse the PDF with a local GROBID server, or fall back to the committed output."""
+    section("8. GROBID (PDF -> TEI XML)")
+    try:
+        boundary = "----grobid"
+        body = (f"--{boundary}\r\nContent-Disposition: form-data; name=\"input\"; filename=\"paper.pdf\"\r\n"
+                f"Content-Type: application/pdf\r\n\r\n").encode() + pdf_path.read_bytes() + f"\r\n--{boundary}--\r\n".encode()
+        req = urllib.request.Request(GROBID_URL, data=body,
+                                     headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+        with urllib.request.urlopen(req, timeout=300) as resp:
+            tei_bytes = resp.read()
+        print("parsed with the local GROBID server")
+    except OSError:
+        tei_bytes = GROBID_CACHE.read_bytes()
+        print(f"no GROBID server at {GROBID_URL}; using {GROBID_CACHE.name} (GROBID 0.9.1, CRF models)")
+    tei = etree.fromstring(tei_bytes)
+
+    authors = [" ".join(p.itertext()).split() for p in tei.iterfind(f".//{TEI}sourceDesc//{TEI}author/{TEI}persName")]
+    print(f"title:   {tei.findtext(f'.//{TEI}titleStmt/{TEI}title')}")
+    print(f"authors: {len(authors)}, DOI: {tei.findtext(f'.//{TEI}idno[@type=\"DOI\"]')}")
+    body = tei.find(f".//{TEI}body")
+    heads = [d.findtext(f"{TEI}head") for d in body.findall(f"{TEI}div")]
+    print(f"section heads ({len(heads)}): {heads}")
+    print(f"references: {len(tei.findall(f'.//{TEI}listBibl/{TEI}biblStruct'))}")
+
+    section_text = " ".join(" ".join(p.itertext()) for d in body.findall(f"{TEI}div") for p in d.iter(f"{TEI}p"))
+    print(f"page numbers / running heads left in section text: "
+          f"{len(re.findall(r'Page \d+ of \d+', section_text))} / {section_text.count('21:379')}")
+    merged = sorted({w for w in re.findall(r"[a-z]+", section_text)
+                     if w.startswith("non") and w not in xml_all and ("non-" + w[3:]) in xml_all})
+    print(f"hyphen breaks left: {len(re.findall(r'[a-z]+ ?- [a-z]+', section_text))}; "
+          f"real compounds joined without their hyphen: {merged}, "
+          f"'nonalcoholic' x{section_text.count('nonalcoholic')}")
+
+    for fig in tei.iter(f"{TEI}figure"):
+        if fig.get("type") == "table":
+            rows = [[" ".join(c.itertext()).strip() for c in r.findall(f"{TEI}cell")] for r in fig.iter(f"{TEI}row")]
+            print(f"{fig.findtext(f'{TEI}head')}: {len(rows)} rows, first rows {rows[:2]}")
+
+    for el in tei.iter():
+        if el.text and "Week 20. The main outcome" in el.text:
+            path = []
+            while el is not None:
+                head = el.findtext(f"{TEI}head")
+                path.append(etree.QName(el).localname + (f"[{head}]" if head else ""))
+                el = el.getparent()
+            print(f"the Results paragraph with the answer ends up at: {'/'.join(reversed(path))}")
+    found = bool(re.search(r"0\.500, n\s*=\s*54", section_text))
+    print(f"answer sentence (rho = -0.500, n = 54) present in the section text: {found}")
+    if found:
+        cs = chunks(section_text)
+        ranked = [i for i, _ in BM25(dict(enumerate(cs))).search(query, len(cs))]
+        answer = next(i for i, c in enumerate(cs) if re.search(r"0\.500, n\s*=\s*54", c))
+        print(f"  ranks #{ranked.index(answer) + 1} of {len(cs)}")
+
 
 if __name__ == "__main__":
     main()

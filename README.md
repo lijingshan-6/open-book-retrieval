@@ -6,7 +6,7 @@ The series covers retrieval as a capability rather than any one pipeline or fram
 
 ## Dataset
 
-Unless an article says otherwise, experiments use the [BEIR](https://github.com/beir-cellar/beir) version of [SciFact](https://github.com/allenai/scifact):
+Unless an article says otherwise (Part 03 uses QASPER, because SciFact has no full texts to chunk), experiments use the [BEIR](https://github.com/beir-cellar/beir) version of [SciFact](https://github.com/allenai/scifact):
 
 - 5,183 scientific abstracts (~215 words on average), 300 test queries
 - about 1.13 relevant documents per query, binary relevance
@@ -31,6 +31,7 @@ Python 3.10+ is recommended.
 | 00 | Why we still need retrieval in the age of agents | [p00_why_retrieval](p00_why_retrieval/) |
 | 01 | Classic RAG as a reference point | [p01_classic_rag](p01_classic_rag/) |
 | 02 | Document parsing sets the ceiling for retrieval | [p02_document_parsing](p02_document_parsing/) |
+| 03 | Chunking and granularity | [p03_chunking](p03_chunking/) |
 
 More parts are added as they are published.
 
